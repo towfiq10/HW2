@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Space Arcade</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+	<section id="navbar">
+		<div>
+			<button id="page1">Page1</button>
+			<button id="page2">Page2</button>
+			<button id="page3">Page3</button>
+		</div>
+	</section>
+	<section id="introScreen">
+		<img src="images/introImage.jpg" alt="intro image">
+		<span id="title">Big<br>Space<br>Sprite<br>Mover</span>
+		<h3>How to play:</h3>
+		<p>Click the Engage button to enter three fruits. The second screen will display your result. Clic the fire button to swap first character to last character and vise verse. <strong>Fire!</strong> button to reverse the characters fruits you enter.</p>
+		<div>
+			<button onclick="startArray() "id="start">Engage! Hussein</button>
+			   
+		</div>
+	</section>
+
+	<section id="gameScreen">
+		<div id="gameUI">
+			<div id="gameInfo">
+				<p>           </p>
+				<p>           </p>
+				<p>           </p>
+			</div>
+			<div id="gameControls">
+
+				<button onclick="fireArray()" id="fire">Fire! Ahmed </button>
+				<div id="gameInfo1">
+					<p>           </p>
+					<p>           </p>
+					<p>           </p>
+				</div>
+							
+			</div>	
+			
+			
+		</div>
+
+		<!-- absolutely positioned elements -->
+		<img id="ufo" src="images/ufo.png" alt="UFO">
+		<img id="torpedo" src="images/torpedo.png" alt="torpedo">
+		<img id="rocket" src="images/rocket.png" alt="Rocket Ship sprite">
+	</section>
+
+	<section id="endScreen">
+		<img src="images/introImage.jpg" alt="intro image">
+		<h3>Here is the list of high scores</h3>
+
+		<div id="gameInfo1"> 
+			    <p>           </p>
+				<p>           </p>
+				<p>           </p>
+					
+			</div>
+	</section>
+
+	<script src="js/program.js"></script>
+</body>
+</html>
